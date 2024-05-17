@@ -13,13 +13,16 @@
         android:theme="@style/Theme.CreamyPeaks"
         tools:targetApi="31">
         <activity
-            android:name=".RegisterActivity"
+            android:name=".ui.user.UserDashboard"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".ui.user.RegisterActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.user.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.common.WelcomeFragment"
             android:exported="true"
             android:theme="@style/Theme.App.SplashScreen">
             <intent-filter>

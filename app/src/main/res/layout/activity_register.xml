@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".RegisterActivity"
+    tools:context=".ui.user.RegisterActivity"
     android:background="@drawable/cool_background">
 
     <androidx.cardview.widget.CardView
@@ -85,16 +85,6 @@
                 android:background="@drawable/edittext_background"
                 android:inputType="textPassword"
                 android:hint="Confirm your Password"/>
-
-            <TextView
-                android:id="@+id/tvForgotPassword"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:text="Forgot Password?"
-                android:textStyle="italic"
-                style="@style/Text.Bold"
-                android:textAlignment="textEnd"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
