@@ -16,10 +16,7 @@
             android:name=".ui.user.UserDashboard"
             android:exported="false" />
         <activity
-            android:name=".ui.user.RegisterActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ui.user.LoginActivity"
+            android:name=".ui.auth.AuthActivity"
             android:exported="false" />
         <activity
             android:name=".ui.common.WelcomeFragment"

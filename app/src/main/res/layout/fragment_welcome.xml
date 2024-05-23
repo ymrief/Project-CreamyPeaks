@@ -30,33 +30,46 @@
             android:layout_height="wrap_content"
             android:text="@string/welcome"
             style="@style/Text.Big.Bold.Title"
+            android:fontFamily="@font/great_vibes"
             app:layout_constraintEnd_toEndOf="@+id/ivLogo"
             app:layout_constraintStart_toStartOf="@+id/ivLogo"
             app:layout_constraintTop_toBottomOf="@id/ivLogo" />
 
+<!--        <Button-->
+<!--            android:id="@+id/btnMasuk"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="25dp"-->
+<!--            android:text="@string/masuk"-->
+<!--            android:backgroundTint="@color/cinnamon"-->
+<!--            android:textColor="@color/cream"-->
+<!--            android:textSize="20sp"-->
+<!--            android:textStyle="bold"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/tvWelcome"/>-->
+
+<!--        <Button-->
+<!--            android:id="@+id/btnDaftar"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:text="@string/daftar"-->
+<!--            android:backgroundTint="@color/cinnamon"-->
+<!--            android:textColor="@color/cream"-->
+<!--            android:textSize="20sp"-->
+<!--            android:textStyle="bold"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/btnMasuk"/>-->
+
         <Button
-            android:id="@+id/btnMasuk"
+            android:id="@+id/btn_mulai"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
-            android:text="@string/masuk"
+            android:layout_marginTop="10dp"
+            android:text="@string/mulai"
             android:backgroundTint="@color/cinnamon"
             android:textColor="@color/cream"
             android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintTop_toBottomOf="@+id/tvWelcome"/>
-
-        <Button
-            android:id="@+id/btnDaftar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:text="@string/daftar"
-            android:backgroundTint="@color/cinnamon"
-            android:textColor="@color/cream"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            app:layout_constraintTop_toBottomOf="@+id/btnMasuk"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
