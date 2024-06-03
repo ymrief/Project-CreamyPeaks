@@ -51,7 +51,7 @@
                     android:ems="10"
                     android:background="@drawable/edittext_background"
                     android:inputType="text"
-                    android:hint="Enter your Email" />
+                    android:hint="Enter your Email"/>
 
             </com.google.android.material.textfield.TextInputLayout>
 
